@@ -233,6 +233,19 @@ input[type=number] {
     background-color: var(--color-dark);
 }
 
+/* Выделение */
+::selection {
+    background: var(--color-light);
+    color: var(--color-dark);
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: var(--color-light);
+    color: var(--color-dark);
+    text-shadow: none;
+}
+
 
 /* Утилитарные классы(которые используются в нескольких секциях) */
 .container {
